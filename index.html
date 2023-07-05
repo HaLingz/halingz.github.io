@@ -9,11 +9,12 @@
         body {
             background-color: aqua;
             background: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_79603-1847.jpg?w=2000");
-            background-size:cover;
+            background-repeat: no-repeat;
         }
         .profile-box {
             border: 1px solid white;
             background-color: white;
+            width: 8cm;
             border-radius: 20px;
             display: grid;
             justify-content: center;
@@ -57,12 +58,6 @@
         }
         .contact i {
             margin-right: 0.2cm;
-        }
-        @media (max-width:600px) {
-            .profile-box {
-                width: 80%;
-            }
-
         }
         .heart {
             animation: 0.8s heart infinite alternate linear;
